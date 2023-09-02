@@ -18,7 +18,7 @@ body {
 .overlay {
   background-color: #000;
   width: 100vw;
-  height: 100vh;
+  height: 120vh;
   background: rgba(0, 0, 0, 70%);
   background-blend-mode: difference;
 }
@@ -37,7 +37,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 50px;
+  padding:50px;
 
 }
 
@@ -86,6 +86,12 @@ body {
 .link>a:hover {
   background-color: #1C1C1C;
   color: #443ef3;
+}
+
+.pix {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer {
