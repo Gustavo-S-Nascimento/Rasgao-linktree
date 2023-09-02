@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'NHL Edge Montreal', Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-image: url(./img/367970498_300704995965381_5822509513015240424_n.jpg);
+  background-position: center center; 
+  background-size: contain; 
+  background-repeat: repeat;
+}
+
+.overlay {
+  background-color: #000;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 70%);
+  background-blend-mode: difference;
+}
+
+.container {
+  max-width: 0 auto;
+  margin: 0 auto;
+  background-image: url("");
+  background-position: center center; 
+  background-size: cover; 
+  background-repeat: no-repeat;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+
+}
+
+.profile>img {
+
+  width: 150px;
+  height: 150px;
+  border: 4px solid #5c16c5;
+  border-radius: 100px;
+  object-fit: cover;
+
+
+}
+
+.profile>p {
+  font-size: 1.8em;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #ffffff;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 30px;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.link>a {
+  text-decoration: none;
+  color: #fdfbf7;
+  font-size: 24px;
+  text-align: center;
+  border: 3px solid #5c16c5;
+  border-radius: 7px;
+  margin: 5px 10px;
+  padding: 14px;
+  text-transform: capitalize;
+  font-weight: 500;
+  border-radius: 30px;
+}
+
+.link>a:hover {
+  background-color: #1C1C1C;
+  color: #443ef3;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 50px;
+  color: #fffdfa;
+}
+
+footer>a {
+  color: #5c16c5;
+  text-decoration: none;
+}
